@@ -1,0 +1,121 @@
+[{
+  "brand": "AUDI",
+  "model": "Audi A1",
+  "volume": "270",
+  "uuid": "61b75aac-77f0-5d72-9c72-96700f7393ea",
+  "name": "(2) 1.0 TFSI 82 ULTRA"
+}, {
+  "brand": "AUDI",
+  "model": "Audi A1 Sportback",
+  "volume": "270",
+  "uuid": "c44aec35-ec80-5998-889c-9cf8eac5db2d",
+  "name": "(2) SPORTBACK 1.0 TFSI 82 ULTRA"
+}, {
+  "brand": "AUDI",
+  "model": "Audi A4 (5e Generation) Avant",
+  "volume": "505",
+  "uuid": "34b63f0e-96b6-5e23-81b4-d283135d4fc2",
+  "name": "V AVANT 1.4 TFSI 150"
+}, {
+  "brand": "AUDI",
+  "model": "Audi A6 (4e Generation) Avant",
+  "volume": "565",
+  "uuid": "ee8c8c9a-20f4-5823-943c-9242f0bae009",
+  "name": "IV (2) AVANT 2.0 TDI 150 ULTRA AMBIENTE"
+}, {
+  "brand": "AUDI",
+  "model": "Audi A7 Sportback 2",
+  "volume": "535",
+  "uuid": "e6395814-8feb-5da8-a7f4-10861e4820a7",
+  "name": "II 50 TDI AVUS EXTENDED QUATTRO TIPTRONIC 8"
+}, {
+  "brand": "AUDI",
+  "model": "Audi Q5 (2e Generation)",
+  "volume": "550",
+  "uuid": "aecee3cb-cd07-5859-b424-230b6df49c78",
+  "name": "II 2.0 TDI 150"
+}, {
+  "brand": "AUDI",
+  "model": "Audi Q7 (2e Generation)",
+  "volume": "890",
+  "uuid": "e456d802-8533-5a4d-94f5-5864d2641856",
+  "name": "II 3.0 TDI CD 272 AVUS EXTENDED QUATTRO TIPTRONIC"
+}, {
+  "brand": "AUDI",
+  "model": "Audi R8 (2e Generation)",
+  "volume": "112",
+  "uuid": "9292c028-bca2-55c8-92aa-728b20e7c5ed",
+  "name": "II V10 5.2 FSI 540 QUATTRO S TRONIC"
+}, {
+  "brand": "AUDI",
+  "model": "Audi R8 (2e Generation) Spyder",
+  "volume": "112",
+  "uuid": "68f1fea5-a277-535c-a5a1-04a17be260a0",
+  "name": "II SPYDER 5.2 V10 RWS"
+}, {
+  "brand": "AUDI",
+  "model": "Audi Rs4 (5e Generation) Avant",
+  "volume": "505",
+  "uuid": "13fe90e0-e108-52be-86b0-e1869d02b437",
+  "name": "V AVANT V6 2.9 TFSI 450 QUATTRO TIPTRONIC"
+}, {
+  "brand": "AUDI",
+  "model": "Audi Rs5 (2e Generation)",
+  "volume": "465",
+  "uuid": "f0fcd5d4-3581-591d-a9b7-82e9c8c49cfe",
+  "name": "II 2.9 TFSI 450 QUATTRO TIPTRONIC 8"
+}, {
+  "brand": "AUDI",
+  "model": "Audi Rs6 (3e Generation) Avant",
+  "volume": "565",
+  "uuid": "c4589d8d-39ba-5565-8886-29e7dffd5ddb",
+  "name": "III (2) AVANT 4.0 TFSI 560 QUATTRO TIPTRONIC"
+}, {
+  "brand": "AUDI",
+  "model": "Audi S1",
+  "volume": "210",
+  "uuid": "6f054827-32cc-58b7-912a-403230ea06f0",
+  "name": "2.0 TFSI 231"
+}, {
+  "brand": "AUDI",
+  "model": "Audi S5 (2e Generation)",
+  "volume": "465",
+  "uuid": "43cf4ec0-bbef-57ee-b1b1-096db1685147",
+  "name": "II 3.0 TFSI 354 QUATTRO TIPTRONIC 8"
+}, {
+  "brand": "AUDI",
+  "model": "Audi S5 Sportback (2e Generation)",
+  "volume": "480",
+  "uuid": "2ede3c31-6dda-5f69-bc0b-b15caa13af33",
+  "name": "II SPORTBACK 3.0 TFSI 354 QUATTRO TIPTRONIC 8"
+}, {
+  "brand": "AUDI",
+  "model": "Audi S6 (4e Generation)",
+  "volume": "",
+  "uuid": "c64a0c9b-fd1f-5d09-be01-3ba50d5f2d32",
+  "name": "IV (2) 4.0 V8 TFSI 420 QUATTRO S TRONIC 7"
+}, {
+  "brand": "AUDI",
+  "model": "Audi S6 Avant (4e Generation)",
+  "volume": "565",
+  "uuid": "b7572d20-92ec-5120-973d-0d078e651eb8",
+  "name": "IV (2) AVANT 4.0 TFSI 420 QUATTRO S TRONIC 7"
+}, {
+  "brand": "AUDI",
+  "model": "Audi S8 (3e Generation)",
+  "volume": "",
+  "uuid": "1dca6eb5-a9ab-5732-9f7e-a84a4b41d9a3",
+  "name": "III (2) 4.0 TFSI 520 SPORT QUATTRO TIPTRONIC"
+}, {
+  "brand": "AUDI",
+  "model": "Audi Sq5 (2e Generation)",
+  "volume": "550",
+  "uuid": "c6d41caf-7a40-5fe3-80dc-86baabb52a36",
+  "name": "II 3.0 V6 TFSI 354 QUATTRO TIPTRONIC 8"
+}, {
+  "brand": "AUDI",
+  "model": "Audi Tt 3",
+  "volume": "",
+  "uuid": "2fd0f18f-eb52-544e-9b9d-d42cdcac499d",
+  "name": "III 2.0 TDI 184 QUATTRO S TRONIC"
+}]
