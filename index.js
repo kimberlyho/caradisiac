@@ -3,48 +3,34 @@ const {getModels} = require('node-car-api');
 var fs = require('fs');
 var elasticsearch = require('elasticsearch');
 
-
+///////////////////////////////////// GET DATA FROM CARADISIAC ///////////////////////////////
 async function getBrand(){
   const brands = await getBrands();
   return brands;
-  console.log(brands);
 }
 
-// var allcaradisiac ={};
 async function getModel(string){
   const models = await getModels(string);
-  console.log(models);
-  // allcaradisiac.push(models);
-  var json = JSON.stringify(models);
-  fs.writeFile('caradisiac.json', json, 'utf8');
+  return models;
 }
 
 let brands = getBrand();
-// console.log(brands);
-
+var list=[];
 brands.then(function(result){
-  // console.log(result);
   for (var i = 0; i < result.length; i++) {
     details = getModel(result[i]);
-
+    details.then(function(res){
+      res.forEach(function(ele){
+        list.push(ele)
+      })
+      var json = JSON.stringify(list)
+      fs.writeFile('caradisiac.json',json,'utf8');
+    })
   }
 });
-// console.log(models);
-// allcaradisiac.push(models)
-// fs.writeFile('caradisiac.json', json, 'utf8');
-// fs.writeFile('caradisiac.json', json, 'utf8');
 
-// var allcaradisiac ={};
-// var json = JSON.stringify(allcaradisiac);
-//
-// // console.log(brands);
-// for (var i = 0; i < result.length; i++) {
-//   console.log('HI !!!!');
-//   // details = getModel(brands[i]);
-//   // console.log(details);
-//   // allcaradisiac.push(details)
-// }
-// fs.writeFile('caradisiac.json', json, 'utf8');
+
+
 
 
 
