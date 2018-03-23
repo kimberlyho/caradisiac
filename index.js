@@ -1,6 +1,7 @@
 const {getBrands} = require('node-car-api');
 const {getModels} = require('node-car-api');
 var fs = require('fs');
+var jsonfile = require('jsonfile');
 var elasticsearch = require('elasticsearch');
 
 ///////////////////////////////////// GET DATA FROM CARADISIAC ///////////////////////////////
@@ -30,31 +31,31 @@ brands.then(function(result){
 });
 
 
+//////////////////////////////////// INDEX ALL RECORDS TO ELASTICSEARCH ///////////////////////////////
 
+var file = "./caradisiac.json";
+var caradisiac = jsonfile.readFileSync(file);
 
+var client = new elasticsearch.Client({
+    host: 'localhost:9200',
+    log: 'trace'
+});
 
+var body = [];
+for (var i = 0; i < caradisiac.length; i++ ) {
+    var config = { index:  { _index: 'caradisiac', _type: 'suv', _id: i } };
+    body.push(config);
+    body.push(caradisiac[i]);
+}
 
-// var client = new elasticsearch.Client({
-//     host: '192.168.99.100:9292',//'localhost:9292',
-//     log: 'trace'
-// });
-//
-// var body = [];
-// for (var i = 0; i < stocks.length; i++ ) {
-//
-//     var config = { index:  { _index: 'stocks', _type: 'stock', _id: i } };
-//     body.push(config);
-//     body.push(stocks[i]);
-// }
-//
-// client.bulk({
-//     body: body
-// }, function (error, response) {
-//     if (error) {
-//         console.error(error);
-//         return;
-//     }
-//     else {
-//         console.log(response);  //  I don't recommend this but I like having my console flooded with stuff.  It looks cool.  Like I'm compiling a kernel really fast.
-//     }
-// });
+client.bulk({
+    body: body
+}, function (error, response) {
+    if (error) {
+        console.error(error);
+        return;
+    }
+    else {
+        console.log(response);
+    }
+});
