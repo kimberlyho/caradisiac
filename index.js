@@ -66,7 +66,7 @@ app.get('/populate',function(req,res){
           console.log(response);
       }
   });
-  res.send("hello");
+  res.send("Data well saved in elasticsearch");
 })
 
 
